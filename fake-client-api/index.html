@@ -84,8 +84,11 @@
             </div>
             <div class="col-md-8">
             </div>
-            <div class="col-md-4">
-                <button>Add Student</button>
+             <div class="col-md-2">
+                <button type="rese" class="bg-danger">Clear</button>
+            </div>
+            <div class="col-md-2">
+                <button>Add</button>
             </div>
            
                 </div>
@@ -205,7 +208,7 @@
         txt = "";
         function get_record() {
             $.ajax({
-                url: "http://fakeapi-students.test/students/",
+                url: "http://localhost/Activity-Fake-API/students/",
                 method: "GET",
                 success: function(response) {
                     txt = "";
@@ -265,7 +268,7 @@
             var formData = $(this).serialize();
             console.log(formData);
             $.ajax({
-                url: "http://fakeapi-students.test/students/",
+                url: "http://localhost/Activity-Fake-API/students/",
                 method: "POST",
                 data:formData,
                 success: function(response) {
@@ -283,7 +286,7 @@
             var formData = $(this).serialize();
             console.log(formData);
             $.ajax({
-                url: "http://fakeapi-students.test/students/",
+                url: "http://localhost/Activity-Fake-API/students/",
                 method: "PUT",
                 data:formData,
                 success: function(response) {
@@ -301,7 +304,7 @@
             var formData = $(this).serialize();
             console.log(formData);
             $.ajax({
-                url: "http://fakeapi-students.test/students/",
+                url: "http://localhost/Activity-Fake-API/students/",
                 method: "DELETE",
                 data:formData,
                 success: function(response) {
