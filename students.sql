@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: May 14, 2023 at 02:13 AM
+-- Generation Time: May 14, 2023 at 03:20 AM
 -- Server version: 5.7.33
 -- PHP Version: 7.4.19
 
@@ -44,7 +44,7 @@ CREATE TABLE `students` (
 --
 
 INSERT INTO `students` (`id`, `firstname`, `lastname`, `birthdate`, `address`, `course`, `yearlevel`, `email`, `phone`) VALUES
-(1, 'Shaina Nikole', 'Desipeda', '2001-02-27', 'Bamban', 'BSIT', 'third-year', 'shaina.nikole@example.com', '09954321812');
+(1, 'Troy Alei', 'Rosales', '2000-08-11', 'San Agustin (Murcia)', 'BSIT', 'third-year', 'la.torre.troy09@gmail.com', '09979024466');
 
 --
 -- Indexes for dumped tables
